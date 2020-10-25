@@ -1,0 +1,17 @@
+<div class="card shadow">
+  <div class="card-body">
+    <h3 class="card-title">typing Test</h3>
+    <h6 class="card-subtitle mb-2 text-muted">Test your skill</h6>
+    <hr>
+    <p class="card-text text-center">
+        <span [class]="compare(char,enteredText[i])"
+        *ngFor="let char of sentence.split('');let i=index">{{ char }}</span>
+    </p>
+    <input (input) = "userInputValidation($event.target.value)" type="text">
+
+    <div *ngIf="sentence === enteredText" class="shadow-lg success-container mt-5 mx-auto ">
+      <p class="success text-center">You Win !!!</p>
+    </div>
+    
+  </div>
+</div>

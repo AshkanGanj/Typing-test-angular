@@ -1,1 +1,31 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+    background-image: url(./assets/s-b-vonlanthen-A8iLzX6OddM-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.card {
+    margin: 20% auto;
+    width: 30rem;
+    height: 25rem;
+    padding: 20px;
+}
+.card-text{
+    padding: 20px 0;
+    font-size: 15px;
+    font-weight: bold;
+}
+.success{
+    color: green;
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 0;
+}
+input{
+    padding-bottom: 0;
+    width: 100%;
+}
+.success-container{
+    width: 50%;
+    padding: 5px;
+}
